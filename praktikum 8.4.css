@@ -1,0 +1,29 @@
+body{
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+}
+header, footer{
+    background-color: yellow;
+    height: 20vh;
+}
+#main{
+    display: flex;
+}
+
+#main article{
+    background-color: pink;
+    height: 60vh;
+    flex: 0 0 59vw;
+}
+nav{
+    background-color: red;
+    float: left;
+    width: 20%;
+    height: 100vh;
+}
+#main aside{
+    background-color: aquamarine;
+    height: 60vh;
+    flex: 0 0 21vw;
+}
